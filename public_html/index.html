@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>電卓</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="all.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <input type="text" id="texb" value="" size="25" readonly="readonly"><br>
+            <span  class="button" onclick="push('7')">7</span> 
+            <span  class="button" onclick="push('8')">8</span> 
+            <span  class="button" onclick="push('9')">9</span>
+            <span  class="button" onclick="symbol('/')">/</span>
+            <span  class="button" onclick="push('4')">4</span> 
+            <span  class="button" onclick="push('5')">5</span> 
+            <span  class="button" onclick="push('6')">6</span>
+            <span  class="button" onclick="symbol('*')">*</span>
+            <span  class="button" onclick="push('1')">1</span>
+            <span  class="button" onclick="push('2')">2</span> 
+            <span  class="button" onclick="push('3')">3</span>
+            <span  class="button" onclick="symbol('-')">-</span>
+            <span  class="button" onclick="push('0')">0</span> 
+            <span  class="button" onclick="reset()">C</span>
+            <span  class="button" onclick="answer()">=</span>
+            <span  class="button" onclick="symbol('+')">+</span>
+        </div>
+    </body>
+</html>
